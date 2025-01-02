@@ -1,54 +1,62 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Kunjanna’s Baptism</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      margin: 0; 
-      padding: 0;
-      text-align: center;
-      background-color: #f8f9fa;
-    }
-    header {
-      background-color: #ffc107;
-      padding: 2rem;
-      color: #fff;
-    }
-    .content {
-      padding: 1rem;
-    }
-    img {
-      max-width: 300px;
-      border-radius: 8px;
-    }
-  </style>
+  <title>My Nephew’s Baptism Invitation</title>
+  <!-- Link to the external CSS file -->
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header>
-    <h1>Hello from Kunajanna!</h1>
-    <p>You’re invited to my Baptism</p>
+    <h1>Welcome to My Nephew’s Baptism</h1>
+    <p>This is a separate HTML file referencing an external CSS file.</p>
   </header>
-  <div class="content">
-    <h2>Event Details</h2>
-    <p>Date: January 25, 2025</p>
-    <p>Time: 04:00 PM(IST)</p>
-    <p>Location: St. Thomas Cathedral, Pala.</p>
-    <img src="https://via.placeholder.com/300x300" alt="Baby Photo" />
+
+  <section id="story">
+    <h2>Our Nephew’s Story</h2>
     <p>
-      Come celebrate with me!  
-      <br />
-      <a href="#rsvp">RSVP Below</a>
+      Born on a sunny day, he’s brought so much joy into our lives.
+      We’d love for you to join us to celebrate his baptism!
     </p>
-  </div>
-  <div id="rsvp" class="content">
+  </section>
+
+  <section id="gallery">
+    <h2>Photo Gallery</h2>
+    <div class="photo-grid">
+      <img src="images/baby1.jpg" alt="Baby 1" />
+      <img src="images/baby2.jpg" alt="Baby 2" />
+    </div>
+  </section>
+
+  <section id="location">
+    <h2>Location</h2>
+    <p>St. Mary’s Church (40.7128, -74.0060)</p>
+    <!-- Example embed map (replace with your own) -->
+    <iframe 
+      src="https://www.google.com/maps/embed?..." 
+      width="600" 
+      height="450" 
+      style="border:0;" 
+      allowfullscreen
+      loading="lazy">
+    </iframe>
+  </section>
+
+  <section id="rsvp">
     <h2>RSVP</h2>
-    <p>
-      Please email <a href="mailto:myemail@example.com">myemail@example.com</a> 
-      or call (555) 123-4567.
-    </p>
-  </div>
+    <!-- Embedding Google or Microsoft Form -->
+    <iframe
+      src="YOUR_GOOGLE_OR_MICROSOFT_FORM_EMBED_URL"
+      width="640"
+      height="800"
+      frameborder="0"
+      allowfullscreen
+      loading="lazy"
+    ></iframe>
+  </section>
+
+  <footer>
+    <p>Thank you! We look forward to seeing you.</p>
+  </footer>
 </body>
 </html>

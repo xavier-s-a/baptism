@@ -1,0 +1,37 @@
+/* Reset or base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    color: #333;
+  }
+  
+  /* Simple styling for structure */
+  header, section, footer {
+    padding: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Headings */
+  h1, h2 {
+    margin-bottom: 1rem;
+  }
+  
+  /* Photo gallery styling */
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    grid-gap: 1rem;
+  }
+  
+  .photo-grid img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
